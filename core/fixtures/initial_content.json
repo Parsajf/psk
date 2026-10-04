@@ -1,0 +1,451 @@
+[
+  {
+    "model": "core.project",
+    "pk": 1,
+    "fields": {
+      "title": "ویلای چنار",
+      "slug": "chenar-villa",
+      "category": "residential",
+      "location": "لواسان",
+      "year_text": "۱۴۰۳",
+      "area_text": "۴۸۰ متر مربع",
+      "body_html": "<h2>معماری در امتداد طبیعت</h2>\n<p>\n                  نقطهٔ آغاز طراحی، حفظ درختان موجود و ساختن رابطه‌ای پیوسته\n                  میان فضای داخلی و باغ بود. حجم اصلی در امتداد شیب زمین نشسته و\n                  با پیش‌آمدگی‌های عمیق، نور و سایه را در ساعات مختلف روز تنظیم\n                  می‌کند.\n                </p>\n<p>\n                  سنگ روشن، بتن تیره و چوب طبیعی در کنار شیشه‌های سرتاسری،\n                  ترکیبی آرام و ماندگار ساخته‌اند. از نشیمن تا اتاق‌های خصوصی،\n                  هر فضا به چشم‌اندازی مشخص گشوده می‌شود و تجربه‌ای تازه از سکون\n                  و حضور فراهم می‌کند.\n                </p>\n<h2>جزئیاتی برای زندگی روزمره</h2>\n<p>\n                  در این پروژه، مسیرهای حرکت، نورپردازی و انتخاب مصالح همگی با\n                  هدف ساده‌تر شدن زندگی روزانه شکل گرفته‌اند. نتیجه، خانه‌ای است\n                  که شکوه آن در تناسب‌ها و کیفیت تجربهٔ فضا دیده می‌شود.\n                </p>",
+      "order": 1,
+      "featured_order": 4,
+      "is_published": true,
+      "image_asset": "assets/images/stone-villa.jpg",
+      "image_upload": "",
+      "image_alt": "ویلای چنار"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 2,
+    "fields": {
+      "title": "دفتر کار آفتاب",
+      "slug": "aftab-office",
+      "category": "commercial",
+      "location": "تهران",
+      "year_text": "",
+      "area_text": "",
+      "body_html": "<h2>دفتر کار آفتاب</h2><p>پروژهٔ دفتر کار آفتاب در تهران، از نمونه‌کارهای پاک سرا کارن در حوزهٔ تجاری است.</p>",
+      "order": 2,
+      "featured_order": 1,
+      "is_published": true,
+      "image_asset": "assets/images/studio-office.jpg",
+      "image_upload": "",
+      "image_alt": "دفتر کار آفتاب"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 3,
+    "fields": {
+      "title": "رستوران ریشه",
+      "slug": "risheh-restaurant",
+      "category": "commercial",
+      "location": "تهران",
+      "year_text": "",
+      "area_text": "",
+      "body_html": "<h2>رستوران ریشه</h2><p>پروژهٔ رستوران ریشه در تهران، از نمونه‌کارهای پاک سرا کارن در حوزهٔ تجاری است.</p>",
+      "order": 3,
+      "featured_order": 2,
+      "is_published": true,
+      "image_asset": "assets/images/restaurant.jpg",
+      "image_upload": "",
+      "image_alt": "رستوران ریشه"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 4,
+    "fields": {
+      "title": "باغ‌خانهٔ سپید",
+      "slug": "sepid-garden-house",
+      "category": "landscape",
+      "location": "کرج",
+      "year_text": "",
+      "area_text": "",
+      "body_html": "<h2>باغ‌خانهٔ سپید</h2><p>پروژهٔ باغ‌خانهٔ سپید در کرج، از نمونه‌کارهای پاک سرا کارن در حوزهٔ محوطه‌سازی است.</p>",
+      "order": 4,
+      "featured_order": null,
+      "is_published": true,
+      "image_asset": "assets/images/courtyard.jpg",
+      "image_upload": "",
+      "image_alt": "باغ‌خانهٔ سپید"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 5,
+    "fields": {
+      "title": "اقامتگاه آرام",
+      "slug": "aram-residence",
+      "category": "commercial",
+      "location": "کاشان",
+      "year_text": "",
+      "area_text": "",
+      "body_html": "<h2>اقامتگاه آرام</h2><p>پروژهٔ اقامتگاه آرام در کاشان، از نمونه‌کارهای پاک سرا کارن در حوزهٔ تجاری است.</p>",
+      "order": 5,
+      "featured_order": 3,
+      "is_published": true,
+      "image_asset": "assets/images/hotel-suite.jpg",
+      "image_upload": "",
+      "image_alt": "اقامتگاه آرام"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 6,
+    "fields": {
+      "title": "خانهٔ روشن",
+      "slug": "roshan-house",
+      "category": "residential",
+      "location": "تهران",
+      "year_text": "",
+      "area_text": "",
+      "body_html": "<h2>خانهٔ روشن</h2><p>پروژهٔ خانهٔ روشن در تهران، از نمونه‌کارهای پاک سرا کارن در حوزهٔ مسکونی است.</p>",
+      "order": 6,
+      "featured_order": null,
+      "is_published": true,
+      "image_asset": "assets/images/living-room.jpg",
+      "image_upload": "",
+      "image_alt": "خانهٔ روشن"
+    }
+  },
+  {
+    "model": "core.projectimage",
+    "pk": 1,
+    "fields": {
+      "position": 1,
+      "image_asset": "assets/images/hero-house.jpg",
+      "image_upload": "",
+      "image_alt": "نمای اصلی ویلای چنار در میان درختان",
+      "project_id": 1
+    }
+  },
+  {
+    "model": "core.projectimage",
+    "pk": 2,
+    "fields": {
+      "position": 2,
+      "image_asset": "assets/images/stone-villa.jpg",
+      "image_upload": "",
+      "image_alt": "نمای دیگر ویلای چنار",
+      "project_id": 1
+    }
+  },
+  {
+    "model": "core.projectimage",
+    "pk": 3,
+    "fields": {
+      "position": 3,
+      "image_asset": "assets/images/living-room.jpg",
+      "image_upload": "",
+      "image_alt": "نشیمن ویلای چنار",
+      "project_id": 1
+    }
+  },
+  {
+    "model": "core.projectimage",
+    "pk": 4,
+    "fields": {
+      "position": 4,
+      "image_asset": "assets/images/courtyard.jpg",
+      "image_upload": "",
+      "image_alt": "محوطه و آب‌نمای پروژه",
+      "project_id": 1
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 1,
+    "fields": {
+      "title": "خانه‌ای که با زمین گفت‌وگو می‌کند",
+      "slug": "house-in-dialogue-with-land",
+      "category": "residential",
+      "jalali_date": "1404-06-18",
+      "date_display": "۱۸ شهریور ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<p>\n                  هر زمین داستان خود را دارد. شیب، جهت تابش آفتاب، مسیر باد و\n                  حتی سایهٔ درختان، داده‌هایی زنده‌اند که به یک ایدهٔ معماری جهت\n                  می‌دهند. وقتی طراحی با شناخت این ویژگی‌ها آغاز شود، ساختمان\n                  به‌جای ایستادن در برابر محیط، بخشی از آن می‌شود.\n                </p>\n<h2>پیش از خط اول، نگاه کردن</h2>\n<p>\n                  در آغاز هر پروژه، زمانی را به مشاهدهٔ دقیق بستر اختصاص\n                  می‌دهیم. ساعت‌های مختلف روز، تغییر نور و مسیرهای طبیعی حرکت را\n                  ثبت می‌کنیم. این شناخت کمک می‌کند جای فضاهای عمومی و خصوصی،\n                  بازشوها و سطوح سایه‌انداز با دقت بیشتری انتخاب شوند.\n                </p>\n<p>\n                  برای نمونه، در یک خانهٔ باغی، حفظ درختان موجود می‌تواند به\n                  مهم‌ترین تصمیم طراحی تبدیل شود. گاهی جابه‌جایی چند متر در محل\n                  استقرار بنا، کیفیت تمام فضاهای داخلی را تغییر می‌دهد.\n                </p>\n<blockquote>\n                  «معماری زمانی ماندگار می‌شود که به جای تسلط بر بستر، با آن\n                  وارد گفت‌وگو شود.»\n                </blockquote>\n<h2>مصالحی که با زمان همراه می‌شوند</h2>\n<p>\n                  سنگ، چوب و بتن هر کدام رفتار و بیان خود را دارند. انتخاب آن‌ها\n                  تنها یک تصمیم زیبایی‌شناسانه نیست؛ دوام، نگهداری و تجربهٔ لمس\n                  نیز مهم‌اند. ما به دنبال ترکیبی هستیم که در گذر سال‌ها همچنان\n                  صادق و خوش‌کیفیت بماند.\n                </p>\n<div class=\"image-frame\">\n<img alt=\"محوطه‌سازی با آب‌نما و پوشش گیاهی\" loading=\"lazy\" src=\"/static/assets/images/courtyard.jpg\"/>\n</div>\n<h3>سه پرسش در شروع طراحی</h3>\n<ul>\n<li>چه ویژگی طبیعی یا فرهنگی در این بستر باید حفظ شود؟</li>\n<li>زندگی روزمرهٔ کاربران چگونه در فضا جریان پیدا می‌کند؟</li>\n<li>کدام انتخاب‌ها در بلندمدت کیفیت خود را حفظ می‌کنند؟</li>\n</ul>\n<p>\n                  پاسخ به این پرسش‌ها یک نسخهٔ ثابت نمی‌سازد؛ مسیر گفت‌وگویی\n                  دقیق میان کارفرما، معمار و محیط را روشن می‌کند.\n                </p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/stone-villa.jpg",
+      "image_upload": "",
+      "image_alt": "خانه‌ای که با زمین گفت‌وگو می‌کند"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 2,
+    "fields": {
+      "title": "متریال طبیعی در فضای زندگی",
+      "slug": "natural-materials-in-living-space",
+      "category": "interior",
+      "jalali_date": "1404-06-09",
+      "date_display": "۰۹ شهریور ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>متریال طبیعی در فضای زندگی</h2><p>چوب، سنگ و الیاف طبیعی می‌توانند به فضای زندگی گرما و عمق بدهند. انتخاب متریال باید با نور، میزان استفاده و شیوهٔ نگهداری فضا هماهنگ باشد.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/living-room.jpg",
+      "image_upload": "",
+      "image_alt": "متریال طبیعی در فضای زندگی"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 3,
+    "fields": {
+      "title": "حیاط، اتاقی زیر آسمان",
+      "slug": "courtyard-room-under-sky",
+      "category": "landscape",
+      "jalali_date": "1404-05-26",
+      "date_display": "۲۶ مرداد ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>حیاط، اتاقی زیر آسمان</h2><p>حیاط فقط فضای خالی اطراف ساختمان نیست. با سایه، نشیمن و مسیر حرکت، می‌تواند ادامهٔ طبیعی زندگی درون خانه باشد.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/courtyard.jpg",
+      "image_upload": "",
+      "image_alt": "حیاط، اتاقی زیر آسمان"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 4,
+    "fields": {
+      "title": "نورپردازی در فضاهای مهمان‌نواز",
+      "slug": "lighting-hospitable-spaces",
+      "category": "public",
+      "jalali_date": "1404-05-15",
+      "date_display": "۱۵ مرداد ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>نورپردازی در فضاهای مهمان‌نواز</h2><p>نورپردازی خوب مسیر حرکت و حال‌وهوای فضا را روشن می‌کند. در فضاهای مهمان‌نواز، ترکیب نور عمومی و موضعی به آسایش و خوانایی کمک می‌کند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/restaurant.jpg",
+      "image_upload": "",
+      "image_alt": "نورپردازی در فضاهای مهمان‌نواز"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 5,
+    "fields": {
+      "title": "دفتر کاری برای همکاری بهتر",
+      "slug": "office-for-better-collaboration",
+      "category": "workplace",
+      "jalali_date": "1404-05-02",
+      "date_display": "۰۲ مرداد ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>دفتر کاری برای همکاری بهتر</h2><p>فضای کار زمانی از همکاری پشتیبانی می‌کند که فرصت تمرکز و گفت‌وگو را هم‌زمان فراهم کند. انعطاف چیدمان و نور طبیعی در این تجربه اثر دارند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/studio-office.jpg",
+      "image_upload": "",
+      "image_alt": "دفتر کاری برای همکاری بهتر"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 6,
+    "fields": {
+      "title": "آرامش در جزئیات طراحی داخلی",
+      "slug": "calm-interior-details",
+      "category": "interior",
+      "jalali_date": "1404-04-21",
+      "date_display": "۲۱ تیر ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>آرامش در جزئیات طراحی داخلی</h2><p>در طراحی داخلی، آرامش از تناسب رنگ، بافت و نور شکل می‌گیرد. جزئیاتی که در استفادهٔ روزمره لمس می‌شوند به اندازهٔ تصویر کلی فضا اهمیت دارند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/hotel-suite.jpg",
+      "image_upload": "",
+      "image_alt": "آرامش در جزئیات طراحی داخلی"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 7,
+    "fields": {
+      "title": "سایه و نور در معماری خانه",
+      "slug": "light-and-shadow-in-house",
+      "category": "residential",
+      "jalali_date": "1404-04-12",
+      "date_display": "۱۲ تیر ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>سایه و نور در معماری خانه</h2><p>سایه و نور در طول روز ظاهر خانه را تغییر می‌دهند. جای پنجره‌ها و عمق سایه‌بان‌ها می‌تواند این تغییر را به بخشی از تجربهٔ فضا تبدیل کند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/hero-house.jpg",
+      "image_upload": "",
+      "image_alt": "سایه و نور در معماری خانه"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 8,
+    "fields": {
+      "title": "طراحی فضای کار انسانی",
+      "slug": "human-workspace-design",
+      "category": "workplace",
+      "jalali_date": "1404-04-03",
+      "date_display": "۰۳ تیر ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>طراحی فضای کار انسانی</h2><p>طراحی فضای کار انسانی به نیازهای واقعی افراد توجه می‌کند. دسترسی، نور، آکوستیک و امکان انتخاب نوع نشستن، کیفیت کار روزانه را بهتر می‌کنند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/studio-office.jpg",
+      "image_upload": "",
+      "image_alt": "طراحی فضای کار انسانی"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 9,
+    "fields": {
+      "title": "حضور طبیعت در فضای داخلی",
+      "slug": "nature-in-interior-space",
+      "category": "interior",
+      "jalali_date": "1404-03-22",
+      "date_display": "۲۲ خرداد ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>حضور طبیعت در فضای داخلی</h2><p>گیاه، نور روز و چشم‌انداز طبیعی به فضای داخلی حس زندگی می‌دهند. این عناصر زمانی مؤثرند که با عملکرد و نگهداری فضا هماهنگ باشند.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/living-room.jpg",
+      "image_upload": "",
+      "image_alt": "حضور طبیعت در فضای داخلی"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 10,
+    "fields": {
+      "title": "ریتم متریال در فضاهای جمعی",
+      "slug": "material-rhythm-in-public-spaces",
+      "category": "public",
+      "jalali_date": "1404-03-10",
+      "date_display": "۱۰ خرداد ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>ریتم متریال در فضاهای جمعی</h2><p>تکرار سنجیدهٔ مصالح می‌تواند فضاهای جمعی را منسجم کند. تغییر بافت و نور به تفکیک بخش‌ها کمک می‌کند، بدون آنکه کلیت فضا از هم جدا شود.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/restaurant.jpg",
+      "image_upload": "",
+      "image_alt": "ریتم متریال در فضاهای جمعی"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 11,
+    "fields": {
+      "title": "باغی برای مکث و آرامش",
+      "slug": "garden-for-pause",
+      "category": "landscape",
+      "jalali_date": "1404-02-28",
+      "date_display": "۲۸ اردیبهشت ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>باغی برای مکث و آرامش</h2><p>باغی برای مکث، مسیرهای روشن و نقاطی برای نشستن دارد. نسبت پوشش گیاهی، آب و سایه باید با اقلیم و شیوهٔ استفاده از فضا هماهنگ شود.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/courtyard.jpg",
+      "image_upload": "",
+      "image_alt": "باغی برای مکث و آرامش"
+    }
+  },
+  {
+    "model": "core.article",
+    "pk": 12,
+    "fields": {
+      "title": "آرامش در اقامتگاه‌های کوچک",
+      "slug": "calm-in-small-residences",
+      "category": "interior",
+      "jalali_date": "1404-02-14",
+      "date_display": "۱۴ اردیبهشت ۱۴۰۴",
+      "reading_minutes": 5,
+      "body_html": "<h2>آرامش در اقامتگاه‌های کوچک</h2><p>در اقامتگاه کوچک، هر متر اهمیت دارد. نور، ذخیره‌سازی و انتخاب مصالح می‌تواند فضا را بازتر و آرام‌تر نشان دهد.</p>",
+      "download_file": "",
+      "is_published": true,
+      "image_asset": "assets/images/hotel-suite.jpg",
+      "image_upload": "",
+      "image_alt": "آرامش در اقامتگاه‌های کوچک"
+    }
+  },
+  {
+    "model": "core.teammember",
+    "pk": 1,
+    "fields": {
+      "name": "نگار ساعی",
+      "role": "معمار ارشد",
+      "position": 1,
+      "is_active": true,
+      "image_asset": "assets/images/team-negar.jpg",
+      "image_upload": "",
+      "image_alt": "نگار ساعی، معمار ارشد"
+    }
+  },
+  {
+    "model": "core.teammember",
+    "pk": 2,
+    "fields": {
+      "name": "امیر راد",
+      "role": "مدیر طراحی",
+      "position": 2,
+      "is_active": true,
+      "image_asset": "assets/images/team-amir.jpg",
+      "image_upload": "",
+      "image_alt": "امیر راد، مدیر طراحی"
+    }
+  },
+  {
+    "model": "core.teammember",
+    "pk": 3,
+    "fields": {
+      "name": "سامان نیک‌پی",
+      "role": "مدیر پروژه",
+      "position": 3,
+      "is_active": true,
+      "image_asset": "assets/images/team-saman.jpg",
+      "image_upload": "",
+      "image_alt": "سامان نیک‌پی، مدیر پروژه"
+    }
+  },
+  {
+    "model": "core.teammember",
+    "pk": 4,
+    "fields": {
+      "name": "الهام بهرامی",
+      "role": "طراح داخلی",
+      "position": 4,
+      "is_active": true,
+      "image_asset": "assets/images/team-elham.jpg",
+      "image_upload": "",
+      "image_alt": "الهام بهرامی، طراح داخلی"
+    }
+  },
+  {
+    "model": "core.teammember",
+    "pk": 5,
+    "fields": {
+      "name": "کاوه مهران",
+      "role": "مهندس سازه",
+      "position": 5,
+      "is_active": true,
+      "image_asset": "assets/images/team-kaveh.jpg",
+      "image_upload": "",
+      "image_alt": "کاوه مهران، مهندس سازه"
+    }
+  },
+  {
+    "model": "core.sitesettings",
+    "pk": 1,
+    "fields": {
+      "address": "تهران، خیابان ولیعصر",
+      "phone_display": "۰۲۱–۸۸۰۰ ۰۰۰۰",
+      "phone_href": "+982188000000",
+      "email": "hello@paksarakaren.example"
+    }
+  }
+]

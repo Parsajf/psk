@@ -1,0 +1,175 @@
+{% load static %}
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="با استودیو پاک سرا کارن، ارزش‌ها، تیم طراحی و نگاه ما به معماری آشنا شوید."
+    />
+    <title>دربارهٔ ما | پاک سرا کارن</title>
+    <link rel="icon" href="{% static 'assets/images/brand-mark.png' %}" type="image/png" />
+    <link
+      rel="preload"
+      href="{% static 'assets/fonts/estedad-variable.woff2' %}"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}?v=letter-spacing-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">پرش به محتوای اصلی</a>
+    <div class="site-shell">
+      <div class="shell-inner">
+        <header class="site-header">
+          <a class="brand" href="{% url 'home' %}" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+            ><img
+              class="brand-mark"
+              src="{% static 'assets/images/brand-mark.png' %}"
+              alt=""
+            /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+          >
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="باز کردن فهرست"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="main-nav" id="main-navigation" aria-label="فهرست اصلی">
+            <a href="{% url 'home' %}">خانه</a><a href="{% url 'projects' %}">پروژه‌ها</a
+            ><a href="{% url 'blog' %}">بلاگ</a><a href="{% url 'about' %}">درباره ما</a>
+          </nav>
+        </header>
+        <main id="main-content" class="about-page-wrapper">
+          <section class="about-page">
+            <header class="page-intro">
+              <div>
+                <h1>درباره ما</h1>
+              </div>
+            </header>
+            <div class="about-lead">
+              <p>
+                ما از شنیدن شروع می‌کنیم؛ از شناخت نیازهای کارفرما، ویژگی‌های
+                بستر و امکان‌های هر پروژه. سپس با نگاهی دقیق و همکاری میان
+                تخصص‌های مختلف، ایده را به تجربه‌ای قابل زندگی تبدیل می‌کنیم.
+                باور داریم زیبایی زمانی ارزشمند است که با عملکرد، دوام و آسایش
+                همراه باشد.
+              </p>
+            </div>
+            <section class="section values-section" aria-label="ارزش‌های پاک سرا کارن">
+              <div class="values-grid">
+                <article class="value-card">
+                  <h2>گوش دادن به بستر</h2>
+                  <p>
+                    هر زمین و هر کارفرما ویژگی‌های خود را دارد. طراحی را با
+                    شناخت دقیق آن‌ها آغاز می‌کنیم.
+                  </p>
+                </article>
+                <article class="value-card">
+                  <h2>دقت در جزئیات</h2>
+                  <p>
+                    از تناسب حجم تا لمس مصالح، کیفیت نهایی در تصمیم‌های کوچک
+                    ساخته می‌شود.
+                  </p>
+                </article>
+                <article class="value-card">
+                  <h2>ماندگاری مسئولانه</h2>
+                  <p>
+                    به فضاهایی فکر می‌کنیم که امروز پاسخ‌گو و سال‌ها بعد همچنان
+                    ارزشمند باشند.
+                  </p>
+                </article>
+              </div>
+            </section>
+            <section class="team-section section" aria-labelledby="team-title">
+              <div class="section-header">
+                <div>
+                  <h2 class="section-heading" id="team-title">
+                    آدم‌های پشت پاک سرا کارن
+                  </h2>
+                  <p class="section-intro">
+                    تیمی از طراحان و متخصصان که با گفت‌وگو، کنجکاوی و دقت کنار
+                    هم کار می‌کنند.
+                  </p>
+                </div>
+                <div class="team-controls" role="group" aria-label="جابه‌جایی اعضای تیم">
+                  <button
+                    class="team-nav-button"
+                    type="button"
+                    data-team-shift="right"
+                    aria-label="جابه‌جایی اعضا به راست"
+                    aria-controls="team-grid"
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M19 12H5m7 7 7-7-7-7" />
+                    </svg>
+                  </button>
+                  <button
+                    class="team-nav-button"
+                    type="button"
+                    data-team-shift="left"
+                    aria-label="جابه‌جایی اعضا به چپ"
+                    aria-controls="team-grid"
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14m-7-7-7 7 7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="team-carousel-viewport">
+                <div class="team-grid" id="team-grid">
+                  {% for member in team_members %}
+                  <article class="team-card"><div class="image-frame"><img src="{{ member.image_url }}" alt="{{ member.image_alt|default:member.name }}" loading="lazy" /></div>
+                    <h3>{{ member.name }}</h3><p class="team-role">{{ member.role }}</p></article>
+                  {% endfor %}
+                </div>
+              </div>
+              <p class="visually-hidden team-carousel-status" aria-live="polite"></p>
+            </section>
+          </section>
+        </main>
+        <footer class="site-footer">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="brand" href="{% url 'home' %}" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+                ><img
+                  class="brand-mark"
+                  src="{% static 'assets/images/brand-mark.png' %}"
+                  alt=""
+                /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+              >
+              <p>
+                ما فضاهایی می‌سازیم که در کنار زیبایی و دقت، به زندگی روزمره
+                معنا و کیفیت بیشتری می‌بخشند.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h2>دسترسی سریع</h2>
+              <a href="{% url 'home' %}">خانه</a><a href="{% url 'projects' %}">پروژه‌ها</a
+              ><a href="{% url 'blog' %}">بلاگ</a><a href="{% url 'about' %}">درباره ما</a>
+            </div>
+            <div class="footer-column footer-contact">
+              <h2>تماس با ما</h2>
+              <span>{{ site_contact.address }}</span
+              ><a href="tel:{{ site_contact.phone_href }}" dir="ltr">{{ site_contact.phone_display }}</a
+              ><a href="mailto:{{ site_contact.email }}" dir="ltr"
+                >{{ site_contact.email }}</a
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© ۱۴۰۴ پاک سرا کارن. تمامی حقوق محفوظ است.</p>
+            <p>طراحی شده با نگاه به آیندهٔ معماری</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="{% static 'assets/js/main.js' %}?v=django-1" defer></script>
+  </body>
+</html>

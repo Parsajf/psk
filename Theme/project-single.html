@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="معرفی پروژهٔ ویلای چنار؛ طراحی مسکونی استودیو معماری پاک سرا کارن."
+    />
+    <title>ویلای چنار | پاک سرا کارن</title>
+    <link rel="icon" href="assets/images/brand-mark.png" type="image/png" />
+    <link
+      rel="preload"
+      href="assets/fonts/estedad-variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="assets/css/main.css?v=letter-spacing-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">پرش به محتوای اصلی</a>
+    <div class="site-shell">
+      <div class="shell-inner">
+        <header class="site-header">
+          <a class="brand" href="index.html" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+            ><img
+              class="brand-mark"
+              src="assets/images/brand-mark.png"
+              alt=""
+            /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+          >
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="باز کردن فهرست"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="main-nav" id="main-navigation" aria-label="فهرست اصلی">
+            <a href="index.html">خانه</a><a href="projects.html">پروژه‌ها</a
+            ><a href="blog.html">بلاگ</a><a href="about.html">درباره ما</a>
+          </nav>
+        </header>
+        <main id="main-content" class="project-page">
+          <article class="project-single">
+            <header class="page-intro">
+              <div>
+                <h1>ویلای چنار</h1>
+              </div>
+            </header>
+            <div class="project-carousel" role="region" aria-label="تصاویر ویلای چنار">
+              <div class="image-frame page-hero-image project-carousel-media">
+                <img
+                  class="project-slide is-active"
+                  src="assets/images/hero-house.jpg"
+                  alt="نمای اصلی ویلای چنار در میان درختان"
+                  fetchpriority="high"
+                  aria-hidden="false"
+                />
+                <img
+                  class="project-slide"
+                  src="assets/images/stone-villa.jpg"
+                  alt="نمای دیگر ویلای چنار"
+                  aria-hidden="true"
+                />
+                <img
+                  class="project-slide"
+                  src="assets/images/living-room.jpg"
+                  alt="نشیمن ویلای چنار"
+                  aria-hidden="true"
+                />
+                <img
+                  class="project-slide"
+                  src="assets/images/courtyard.jpg"
+                  alt="محوطه و آب‌نمای پروژه"
+                  aria-hidden="true"
+                />
+                <button
+                  class="project-carousel-open"
+                  type="button"
+                  aria-label="نمایش نمای اصلی ویلای چنار در گالری"
+                  aria-haspopup="dialog"
+                  aria-controls="project-lightbox"
+                ></button>
+                <div class="project-carousel-controls" hidden>
+                  <button
+                    class="project-carousel-arrow"
+                    type="button"
+                    data-project-slide="previous"
+                    aria-label="تصویر قبلی"
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14m0 0-6-6m6 6-6 6" />
+                    </svg>
+                  </button>
+                  <button
+                    class="project-carousel-arrow"
+                    type="button"
+                    data-project-slide="next"
+                    aria-label="تصویر بعدی"
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M19 12H5m0 0 6-6m-6 6 6 6" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="project-carousel-pagination" aria-hidden="true">
+                <span class="project-carousel-mark is-active"></span>
+                <span class="project-carousel-mark"></span>
+                <span class="project-carousel-mark"></span>
+                <span class="project-carousel-mark"></span>
+              </div>
+              <span class="visually-hidden project-carousel-status" role="status" aria-live="polite">تصویر ۱ از ۴</span>
+            </div>
+            <dialog class="project-lightbox" id="project-lightbox" aria-label="گالری تصاویر ویلای چنار">
+              <div class="project-lightbox-toolbar">
+                <span class="project-lightbox-status" role="status" aria-live="polite">تصویر ۱ از ۴</span>
+                <button class="project-lightbox-close" type="button" aria-label="بستن گالری">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" /></svg>
+                </button>
+              </div>
+              <div class="project-lightbox-stage">
+                <button class="project-lightbox-arrow project-lightbox-previous" type="button" data-lightbox-step="-1" aria-label="تصویر قبلی">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" /></svg>
+                </button>
+                <div class="project-lightbox-image-viewport">
+                  <img class="project-lightbox-image" alt="" />
+                </div>
+                <button class="project-lightbox-arrow project-lightbox-next" type="button" data-lightbox-step="1" aria-label="تصویر بعدی">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6" /></svg>
+                </button>
+              </div>
+            </dialog>
+            <dl class="project-meta">
+              <div>
+                <dt>نوع پروژه</dt>
+                <dd>مسکونی</dd>
+              </div>
+              <div>
+                <dt>موقعیت</dt>
+                <dd>لواسان</dd>
+              </div>
+              <div>
+                <dt>سال اجرا</dt>
+                <dd>۱۴۰۳</dd>
+              </div>
+              <div>
+                <dt>متراژ</dt>
+                <dd>۴۸۰ متر مربع</dd>
+              </div>
+            </dl>
+            <div class="article-layout">
+              <div class="article-body">
+                <h2>معماری در امتداد طبیعت</h2>
+                <p>
+                  نقطهٔ آغاز طراحی، حفظ درختان موجود و ساختن رابطه‌ای پیوسته
+                  میان فضای داخلی و باغ بود. حجم اصلی در امتداد شیب زمین نشسته و
+                  با پیش‌آمدگی‌های عمیق، نور و سایه را در ساعات مختلف روز تنظیم
+                  می‌کند.
+                </p>
+                <p>
+                  سنگ روشن، بتن تیره و چوب طبیعی در کنار شیشه‌های سرتاسری،
+                  ترکیبی آرام و ماندگار ساخته‌اند. از نشیمن تا اتاق‌های خصوصی،
+                  هر فضا به چشم‌اندازی مشخص گشوده می‌شود و تجربه‌ای تازه از سکون
+                  و حضور فراهم می‌کند.
+                </p>
+                <h2>جزئیاتی برای زندگی روزمره</h2>
+                <p>
+                  در این پروژه، مسیرهای حرکت، نورپردازی و انتخاب مصالح همگی با
+                  هدف ساده‌تر شدن زندگی روزانه شکل گرفته‌اند. نتیجه، خانه‌ای است
+                  که شکوه آن در تناسب‌ها و کیفیت تجربهٔ فضا دیده می‌شود.
+                </p>
+              </div>
+            </div>
+          </article>
+          <section
+            class="related-section"
+            aria-labelledby="related-projects-title"
+          >
+            <div class="section-header">
+              <h2 class="section-heading" id="related-projects-title">
+                پروژه‌های دیگر
+              </h2>
+              <a class="section-link" href="projects.html"
+                >همهٔ پروژه‌ها
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M19 12H5m0 0 6-6m-6 6 6 6" /></svg
+              ></a>
+            </div>
+            <div class="related-grid">
+              <a class="portfolio-card image-frame" href="project-single.html"
+                ><img
+                  src="assets/images/studio-office.jpg"
+                  alt="دفتر کار آفتاب"
+                  loading="lazy"
+                /><span>دفتر کار آفتاب</span></a
+              ><a class="portfolio-card image-frame" href="project-single.html"
+                ><img
+                  src="assets/images/restaurant.jpg"
+                  alt="رستوران ریشه"
+                  loading="lazy"
+                /><span>رستوران ریشه</span></a
+              >
+            </div>
+          </section>
+        </main>
+        <footer class="site-footer">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="brand" href="index.html" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+                ><img
+                  class="brand-mark"
+                  src="assets/images/brand-mark.png"
+                  alt=""
+                /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+              >
+              <p>
+                ما فضاهایی می‌سازیم که در کنار زیبایی و دقت، به زندگی روزمره
+                معنا و کیفیت بیشتری می‌بخشند.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h2>دسترسی سریع</h2>
+              <a href="index.html">خانه</a><a href="projects.html">پروژه‌ها</a
+              ><a href="blog.html">بلاگ</a><a href="about.html">درباره ما</a>
+            </div>
+            <div class="footer-column footer-contact">
+              <h2>تماس با ما</h2>
+              <span>تهران، خیابان ولیعصر</span
+              ><a href="tel:+982188000000" dir="ltr">۰۲۱–۸۸۰۰ ۰۰۰۰</a
+              ><a href="mailto:hello@paksarakaren.example" dir="ltr"
+                >hello@paksarakaren.example</a
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© ۱۴۰۴ پاک سرا کارن. تمامی حقوق محفوظ است.</p>
+            <p>طراحی شده با نگاه به آیندهٔ معماری</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/js/main.js?v=project-lightbox-2" defer></script>
+  </body>
+</html>

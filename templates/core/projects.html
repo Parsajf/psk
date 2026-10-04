@@ -1,0 +1,119 @@
+{% load static %}
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="نمونه پروژه‌های معماری، طراحی داخلی و محوطه‌سازی استودیو پاک سرا کارن."
+    />
+    <title>پروژه‌ها | پاک سرا کارن</title>
+    <link rel="icon" href="{% static 'assets/images/brand-mark.png' %}" type="image/png" />
+    <link
+      rel="preload"
+      href="{% static 'assets/fonts/estedad-variable.woff2' %}"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}?v=letter-spacing-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">پرش به محتوای اصلی</a>
+    <div class="site-shell">
+      <div class="shell-inner">
+        <header class="site-header">
+          <a class="brand" href="{% url 'home' %}" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+            ><img
+              class="brand-mark"
+              src="{% static 'assets/images/brand-mark.png' %}"
+              alt=""
+            /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+          >
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="باز کردن فهرست"
+            aria-controls="main-navigation"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="main-nav" id="main-navigation" aria-label="فهرست اصلی">
+            <a href="{% url 'home' %}">خانه</a><a href="{% url 'projects' %}">پروژه‌ها</a
+            ><a href="{% url 'blog' %}">بلاگ</a><a href="{% url 'about' %}">درباره ما</a>
+          </nav>
+        </header>
+        <main id="main-content" class="projects-page">
+          <section class="page-intro">
+            <div>
+              <h1>پروژه‌ها</h1>
+            </div>
+            <p>
+              مجموعه‌ای از پروژه‌های مسکونی، تجاری و محوطه‌سازی؛ هر کدام پاسخی
+              ویژه به بستر و نیاز کارفرما.
+            </p>
+          </section>
+          <section class="projects-archive" aria-label="فهرست پروژه‌ها">
+            <div class="archive-grid" data-paginated-grid data-page-size="3">
+              {% for project in projects %}
+              <article class="project-card archive-card" data-category="{{ project.category }}">
+                <a class="image-frame project-card-media" href="{{ project.get_absolute_url }}">
+                  <img src="{{ project.image_url }}" alt="{{ project.image_alt|default:project.title }}" loading="lazy" />
+                  <div class="project-card-content">
+                    <h2>{{ project.title }}</h2>
+                    <span class="card-meta">
+                      <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+                        <circle cx="12" cy="10" r="2.5" />
+                      </svg>
+                      {{ project.location }}
+                    </span>
+                  </div>
+                </a>
+              </article>
+              {% endfor %}
+            </div>
+            <nav class="pagination" aria-label="صفحه‌بندی پروژه‌ها"></nav>
+          </section>
+        </main>
+        <footer class="site-footer">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="brand" href="{% url 'home' %}" aria-label="پاک سرا کارن، صفحهٔ اصلی"
+                ><img
+                  class="brand-mark"
+                  src="{% static 'assets/images/brand-mark.png' %}"
+                  alt=""
+                /><span>پاک سرا کارن<small>معماری برای زندگی بهتر</small></span></a
+              >
+              <p>
+                ما فضاهایی می‌سازیم که در کنار زیبایی و دقت، به زندگی روزمره
+                معنا و کیفیت بیشتری می‌بخشند.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h2>دسترسی سریع</h2>
+              <a href="{% url 'home' %}">خانه</a><a href="{% url 'projects' %}">پروژه‌ها</a
+              ><a href="{% url 'blog' %}">بلاگ</a><a href="{% url 'about' %}">درباره ما</a>
+            </div>
+            <div class="footer-column footer-contact">
+              <h2>تماس با ما</h2>
+              <span>{{ site_contact.address }}</span
+              ><a href="tel:{{ site_contact.phone_href }}" dir="ltr">{{ site_contact.phone_display }}</a
+              ><a href="mailto:{{ site_contact.email }}" dir="ltr"
+                >{{ site_contact.email }}</a
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© ۱۴۰۴ پاک سرا کارن. تمامی حقوق محفوظ است.</p>
+            <p>طراحی شده با نگاه به آیندهٔ معماری</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="{% static 'assets/js/main.js' %}?v=django-1" defer></script>
+  </body>
+</html>
