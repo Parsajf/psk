@@ -28,6 +28,15 @@ CSRF_TRUSTED_ORIGINS = [
     for origin in os.environ.get('DJANGO_CSRF_TRUSTED_ORIGINS', '').split(',')
     if origin.strip()
 ]
+if not DEBUG:
+    # Nginx overwrites this header and Gunicorn only listens on loopback.
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    # Start with a short HSTS lifetime until HTTPS has proven stable.
+    SECURE_HSTS_SECONDS = 3600
+
 INSTALLED_APPS = [
     'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes',
     'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', 'core',
